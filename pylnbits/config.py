@@ -27,7 +27,7 @@ class Config:
                 
                 with open(config_file, "rb") as f:
                     cfile = safe_load(f)
-                    print(cfile)
+                    # print(cfile)
                 f.close()
 
                 # add file error checking
